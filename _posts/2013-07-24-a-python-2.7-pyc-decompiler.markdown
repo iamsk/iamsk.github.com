@@ -1,0 +1,98 @@
+---
+layout: post
+title: uncompyle -- A Python 2.7 byte-code decompiler
+tags: [uncompyle, python, decompile]
+date: 2013-07-24 22:20
+---
+
+## 缘起
+
+本想清理代码中的 pyc 文件，不想少打了 c，导致所有的源文件被清空，还好是个 demo，代码不多，并且 pyc 还存在，在懒得重新写时，想起来是否可以反编译 pyc 文件。
+
+针对 py2.7 生成的代码，通过试用各个反编译的工具，最后发现 uncompyle 比较好用
+
+'uncompyle' converts Python byte-code back into equivalent Python source. It accepts byte-code from Python version 2.7 only.
+
+The generated source is very readable: docstrings, lists, tuples and hashes get pretty-printed.
+
+## Install
+
+	git clone https://github.com/gstarnberger/uncompyle.git
+	cd uncompyle/
+	python setup.py install
+
+## Usage
+
+	uncompyler.py -h
+
+## DEMO
+
+	$ more quick_sort.py
+	#-*- coding: utf-8 -*-
+	
+	
+	def qsort1(list):
+	    """
+	    Quicksort using list comprehensions
+	    >>> qsort1<<docstring test numeric input>>
+	    <<docstring test numeric output>>
+	    >>> qsort1<<docstring test string input>>
+	    <<docstring test string output>>
+	    """
+	    if list == []:
+	        return []
+	    else:
+	        pivot = list[0]
+	        lesser = qsort1([x for x in list[1:] if x < pivot])
+	        greater = qsort1([x for x in list[1:] if x >= pivot])
+	        return lesser + [pivot] + greater
+	
+	
+	if __name__ == '__main__':
+	    import random
+	    a = [random.randint(0, 100) for i in range(10)]
+	    a = qsort1(a)
+	    print a
+
+当这个代码被删除后，但保留有其 pyc 文件: quick_sort.pyc，执行如下命令
+
+	$ uncompyler.py quick_sort.pyc
+
+生成代码如下，基本完整保留了源代码的所有信息
+
+	# 2013.07.24 23:09:19 CST
+	
+	def qsort1(list):
+	    """
+	    Quicksort using list comprehensions
+	    >>> qsort1<<docstring test numeric input>>
+	    <<docstring test numeric output>>
+	    >>> qsort1<<docstring test string input>>
+	    <<docstring test string output>>
+	    """
+	    if list == []:
+	        return []
+	    else:
+	        pivot = list[0]
+	        lesser = qsort1([ x for x in list[1:] if x < pivot ])
+	        greater = qsort1([ x for x in list[1:] if x >= pivot ])
+	        return lesser + [pivot] + greater
+	
+	
+	if __name__ == '__main__':
+	    import random
+	    a = [ random.randint(0, 100) for i in range(10) ]
+	    a = qsort1(a)
+	    print a
+	
+	+++ okay decompyling quick_sort.pyc
+	# decompiled 1 files: 1 okay, 0 failed, 0 verify failed
+	# 2013.07.24 23:09:19 CST
+
+REFs:
+
+https://github.com/gstarnberger/uncompyle
+
+http://stackoverflow.com/questions/8189352/decompile-python-2-7-pyc
+
+http://en.literateprograms.org/Quicksort_(Python)

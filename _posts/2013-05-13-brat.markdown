@@ -1,0 +1,36 @@
+---
+layout: post
+title: Brat - A [framework|practice] of RESTful API based on Tornado
+tags: [API, RESTFul, Brat]
+date: 2013-05-13 08:00
+---
+一个 API 框架
+
+方便构建 RESTFul style 的 API，提供验证，HTTP methods(GET, POST, PUT, DELETE, OPTIONS)，异常处理，json/xml 返回，分页等
+
+## Minimal Demo
+
+### $ more examples/mimimal.py
+
+    from restful import Api
+    from restful.basehandler import BaseHandler
+
+    api = Api()
+
+
+    class HelloWorld(BaseHandler):
+        def real_get(self):
+            return {'hello': 'world'}
+
+    api.add_handler('/', HelloWorld)
+
+    if __name__ == '__main__':
+        api.run()
+
+### $ python miminal.py
+
+### $ curl http://localhost:7777/ -X GET
+
+    {"hello": "world"}
+
+Github: [iamsk/brat](https://github.com/iamsk/brat)

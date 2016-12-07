@@ -1,0 +1,50 @@
+---
+layout: post
+title: Tempfile in Python
+tags: [tempfile, python]
+date: 2013-05-22 22:20
+---
+
+很长一段时间，我们有一台虚拟机每隔一周就会无法响应，只能重启解决，当时初步分析是文件描述符过多引起的
+
+今天又重现了，然后静下心认真分析了此问题
+
+经过 lsof 命令的查看，发现很多文件状态是打开的，并且这些文件已被删除
+
+排查后，发现事故现场在此
+
+    def process_sth(pic_path):
+        filename = tempfile.mkstemp()[1]
+        with open(filename, 'w') as f:
+            f.write(pic_path)
+        process('test')
+        os.remove(filename)
+
+tempfile.mkstemp 创建的文件会自动已读写方式打开，并且随后的写打开，python 是不报错的，ps: 有多次打开的需求时，需要自己实现锁
+
+随着此函数的调用的增长，系统文件描述符也在持续增长，最终导致服务器无法响应
+
+### 解决方法一：
+
+    def process_sth(pic_path):
+        fd, filename = tempfile.mkstemp()
+        os.close(fd)
+        with open(filename, 'w') as f:
+            f.write(pic_path)
+        process('test')
+        os.remove(filename)
+
+### 解决方法二：
+
+    def process_sth(pic_path):
+        fd, filename = tempfile.mkstemp()
+        with os.fdopen(fd, 'w') as f:
+            f.write(pic_path)
+        process('test')
+        os.remove(filename)
+
+### Refs:
+
+http://docs.python.org/2/library/tempfile.html
+
+http://stackoverflow.com/questions/9944135/how-do-i-close-the-files-from-tempfile-mkstemp

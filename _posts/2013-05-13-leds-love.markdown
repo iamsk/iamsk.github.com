@@ -1,0 +1,21 @@
+---
+layout: post
+title: Leds Love
+tags: [arduino, led, love]
+date: 2013-05-13 00:30
+---
+
+![LEDS-LOVE](/photos/leds-love.jpg)
+
+    #define LOVE  {
+        {0, 0, 1, 1, 0, 0, 0, 0}, //0x30
+        {0, 1, 0, 0, 1, 0, 0, 0}, //0x48
+        {0, 1, 0, 0, 0, 1, 0, 0}, //0x44
+        {0, 0, 1, 0, 0, 0, 1, 0}, //0x22
+        {0, 1, 0, 0, 0, 1, 0, 0}, //0x44
+        {0, 1, 0, 0, 1, 0, 0, 0}, //0x48
+        {0, 0, 1, 1, 0, 0, 0, 0}, //0x30
+        {0, 0, 0, 0, 0, 0, 0, 0}  //0x00
+    }
+
+Something which is blurred and difficult to understand

@@ -1,0 +1,26 @@
+---
+layout: post
+title: Third party verification for Mobile App with Web
+tags: [third-party, verification, mobile, app]
+date: 2013-06-26 20:41
+---
+
+目前的很多手机应用都支持第三方(新浪，豆瓣，人人)绑定，注册，登陆等等
+
+场景如下：
+
+    1、Web 网站已支持第三方的这几个功能；
+    2、手机应用端有独立的 OAuth2 服务和 RESTFull API 服务；
+    3、客户端需和 Web 端使用相同的第三方开发者 KEY；
+
+## 绑定
+针对已登录用户
+
+通过将当前用户的 token 通过内置浏览器发送至 Web 网站特定接口(/oauth/mobile_bind)，换取 Web 端的 cookie，接着以 Web 端绑定的方式进行后一步操作，所有操作状态均可在内置浏览器中进行，和 Web 网站一致。
+
+当绑定成功后，手机端监测到从特定 URL 的内置浏览器中返回，再次请求绑定状态即可。
+
+## 注册
+针对未登录用户
+
+通过内置浏览器访问 Web 网站特定接口(/oauth/mobile_register)，此接口通过设置 callback 地址请求主站的绑定接口，接着以 Web 端绑定的方式进行，当请求 callback 时，通过 callback

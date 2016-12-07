@@ -1,0 +1,109 @@
+---
+layout: post
+title: 翻译 - The sorry state of Python OAuth providers Tweet
+tags: [python, oauth]
+date: 2013-07-16 14:30
+---
+
+## 声明：欢迎对翻译中的错误给予指出，谢谢
+
+这是一篇写起来很有挑战性的博文，我接下来要描述的关于这些项目都具有一定的专业性
+
+糟糕的基于 Python 的 Oauth 服务端实现
+
+编写 OAuth 消费者代码是个麻烦的问题，编写 OAuth 提供者更麻烦了
+
+这些项目作者的努力并没有太多惊人的改善，问题是现有项目没有可用的原样，需要社区的支持以提高。
+
+可怕的是，这个被社区认为是已经被解决的问题，基于 Python 的大多数项目成功的实现了 OAuth 提供者，并且内部的使用了很多 hacked 的方法。但是，他们没有将这些反馈回社区。也许他们想保护自己的竞争优势，不过用更善意的方式去思考，可能是应为他们太忙了，找不到时间去发起 pull requests
+
+无论怎样，让我来说明下我们的应用场景，我们需要为 [Consumer Notebook](http://consumernotebook.com/) 构建一个 [API](http://api.consumernotebook.com/) 服务。我们希望可以追踪用户名，密码以及那些在使用我们的 API的应用，这就是 OAuth 的应用场景。大多数时候 BasicAuth 和 DigestAuth 是一个更易于实现的方式，并且足够用，但 OAuth 的设计更适合我们的应用场景：
+
+	允许第三方开放者使用我们的 API 开发应用，而不用存放用户的认证信息(用户名、密码等)
+
+实事上，以前存在过很危险的安全问题：Twitter 在切换到使用 OAuth 之前， 处理了很多恶意的应用，因为这些应用偷窃用户的用户名和密码。作为一个 API 的提供者，成为 OAuth 的提供者应该更有挑战，但它是有责任并且必须去做的事。
+
+## 现有的 OAuth 服务提供者
+
+是时候去分析现有的问题啦，我们来看看目前 Python 生态圈的 OAuth 提供者，我不希望这么去否定他们，但是我确实遇到到了很多问题
+
+### OAuth2app (Django)
+
+https://github.com/hiidef/OAuth2app
+
+OAuth 版本: 2.0
+
+* 奇怪的 URL 结构可能会引发一些安全漏洞
+* 在逻辑中使用了按位操作符等，使得调试比较麻烦。安全性是很难做到的，不要将你的安全代码复杂化，因为你的失误会引起更多问题
+* 未注释的代码，安全性是很难做到的，请注释你的代码
+* 文档是过时并且不完整的
+* 不通过一些 hack 行为，他就不会很好的运行，并且有一些没有任何说明的参数，意味着，我一不小心就掉进坑里了
+* 我们设法让它通过 GET 请求工作，然后，我们意识到我们一直用的就是 GET 请求，看起来不是一个好主意(这句话没看懂)
+
+### django-piston (Django)
+
+https://bitbucket.org/jespern/django-piston
+
+OAuth 版本: 1.0
+
+* 停滞的项目
+* 文档是不完整的
+
+### django-oauth-plus (Django)
+
+http://code.larlet.fr/django-oauth-plus
+
+OAuth 版本: 1.0a
+
+* 教程是不可运行的
+* 文档是不完整的
+* 不通过一些 hack 行为，他就不会很好的运行，意味着，一不小心就掉进坑里了
+* 我们无法让它工作起来
+
+### lastuser (Flask)
+
+https://github.com/hasgeek/lastuser
+
+OAuth 版本: 2.0
+
+* 没有文档
+* 没用用作文档的测试用例
+* 因为缺乏文档，所以不不完全确定他是否是个 OAuth 的提供者
+
+### python-oauth2 (Python)
+
+https://github.com/dgouldin/python-OAuth2 (best example)
+
+OAuth 版本: 1.0
+
+* 名称是 'OAuth2'，但是只工作于 OAuth1，这个需要被修正
+* 文档是不完整的
+* 只给了一个提供者的框架，并非一个完整的解决方案
+* 不通过一些 hack 行为，他就不会很好的运行，意味着，一不小心就掉进坑里了
+* 这个项目被很多人 Fork，各种各样的博文建议人们使用各种各样的 Forks，而不是用他的主项目
+
+## 如何解决这个问题？
+
+好吧，我们已经吐槽并且指出了很多点来说明现存的问题，是时候解决他们了
+
+对于初次使用者，一个生产环境可用的 OAuth 提供者需要符合以下几个标准：
+
+* 接近完整的解决方案
+* 可工作的代码(重复了上面的吐槽，因为我认为这是基本)
+* 可运行的教程
+* 文档
+* 有注释的代码
+* 规范的代码
+* 大于 80% 的测试覆盖率
+
+这是我的标准，如果你使用任何 Python 框架的项目符合这个标准，我将在新的网站中列出来，当然它需要包含一个基于 Python 的消费者
+
+什么是不错的呢，Idan Gazit 已经在做一些事情去解决这个问题，尤其是 [https://github.com/idan/oauthlib](https://github.com/idan/oauthlib)，他甚至准备去解决一些 Python OAuth 消费者的一些问题，而这些问题我并未在本篇博文中说明到的。它及相关的一些问题，还需要很多工作去做，所以呢。。。
+
+PyCon US 2012 大会即将在3月12日开始，我认为作为一个社区，我们聚在一起并且把事情做对。我认为我们有足够的智囊团和足够的眼睛去聚焦在这个问题上，真正的让这些问题得到解决，无论是用已存在的方案解决或是新的方案，现在我们已经得到了人们对这个的兴趣，参与与帮助，包括 Idan Gazit, Audrey Roy, George Hickman 和其他人。
+
+我们非常愿意花时间使 Python OAuth 做的更好，你怎么认为呢？ 
+
+加入 PyCon US 2012 大会或者是在线的。
+
+REF: [The sorry state of Python OAuth providers Tweet](http://pydanny.com/the-sorry-state-of-python-oauth-providers.html)

@@ -1,0 +1,82 @@
+---
+layout: post
+title: jq - command-line JSON processor
+tags: [jq, json, command]
+date: 2013-06-03 16:50
+---
+
+jq 就像是 linux 下的 sed 命令一样，不过他是用来处理 json 文件的
+
+你可以在命令行下很简单的操作 json 数据，就像操作对象一样，可以很方便的格式化，分片，过滤，映射、转换这些数据
+
+### Install
+
+    use brew install jq in osx
+    or
+    http://stedolan.github.io/jq/download/ for other systems
+
+### $ more answer.json
+
+{"author": {"name": "\u6797\u6d9b", "headline": "Web Developer, Djangonaut", "gender": 1, "url": "https://api.zhihu.com/people/36543facf06106e0060cbbbfc0e57cad", "avatar_url": "http://p1.zhimg.com/00/eb/00ebde2fd_s.jpg", "type": "people", "id": "36543facf06106e0060cbbbfc0e57cad"}, "url": "https://api.zhihu.com/answers/16843820", "excerpt": "Twenty years from now you will be more disappointed by the things you did\u2026", "question": {"url": "https://api.zhihu.com/questions/20996047", "type": "question", "id": 20996047, "title": "\u5230\u5e95\u662f\u4f1a\u4e3a\u505a\u4e86\u7684\u4e8b\u60c5\u540e\u6094\u8fd8\u662f\u4f1a\u4e3a\u4e0d\u505a\u7684\u4e8b\u60c5\u540e\u6094\uff1f"}, "updated_time": 1367133216, "content": "Twenty years from now you will be more disappointed by the things you didn't do than by the ones you did. So throw off the bowlines, Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover. -- <i>Mark Twain</i>", "comment_count": 1, "type": "answer", "id": 16843820, "voteup_count": 22}
+
+这是一个来自知乎的答案信息，内容没有被空格及换行分隔，很难看懂
+
+jq 的 filter '.' 可以帮我们格式化，如下
+
+### 格式化
+
+    $ cat answer.json | jq '.'
+
+    {
+      "voteup_count": 22,
+      "id": 16843820,
+      "author": {
+        "id": "36543facf06106e0060cbbbfc0e57cad",
+        "type": "people",
+        "avatar_url": "http://p1.zhimg.com/00/eb/00ebde2fd_s.jpg",
+        "url": "https://api.zhihu.com/people/36543facf06106e0060cbbbfc0e57cad",
+        "gender": 1,
+        "headline": "Web Developer, Djangonaut",
+        "name": "林涛"
+      },
+      "url": "https://api.zhihu.com/answers/16843820",
+      "excerpt": "Twenty years from now you will be more disappointed by the things you did…",
+      "question": {
+        "title": "到底是会为做了的事情后悔还是会为不做的事情后悔？",
+        "id": 20996047,
+        "type": "question",
+        "url": "https://api.zhihu.com/questions/20996047"
+      },
+      "updated_time": 1367133216,
+      "content": "Twenty years from now you will be more disappointed by the things you didn't do than by the ones you did. So throw off the bowlines, Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover. -- <i>Mark Twain</i>",
+      "comment_count": 1,
+      "type": "answer"
+    }
+
+### 获取答案 id
+
+    $ cat answer.json | jq '.id'
+    
+    16843820
+
+### 获取答案 id 和内容
+
+    $ cat answer.json | jq '{id, content}'
+    
+    {
+      "content": "Twenty years from now you will be more disappointed by the things you didn't do than by the ones you did. So throw off the bowlines, Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover. -- <i>Mark Twain</i>",
+      "id": 16843820
+    }
+
+
+### 获取作者姓名
+
+    $ cat answer.json | jq '.author | {name}'
+
+    {
+      "name": "林涛"
+    }
+    
+用法非常之多，详见
+
+http://stedolan.github.io/jq/manual/
