@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Redis high availability
 tags: [redis, haproxy, high availability, jondis]
 date: 2013-06-28 18:50

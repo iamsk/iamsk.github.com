@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Remote Control
 tags: [raspberrypi, 315mhz, lamp, remote-control]
 date: 2013-04-25 00:00

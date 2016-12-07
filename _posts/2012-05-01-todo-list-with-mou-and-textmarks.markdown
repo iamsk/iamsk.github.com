@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: todo list with mou and textmarks
 tags: [GTD, textexpander, topmarks]
 date: 2012-05-01 00:57

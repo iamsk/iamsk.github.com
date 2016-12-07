@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 翻译 - The sorry state of Python OAuth providers Tweet
 tags: [python, oauth]
 date: 2013-07-16 14:30

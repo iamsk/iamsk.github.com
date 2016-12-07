@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  Use parse for push notification
 tags: push, parse
 date: 2015-10-08 14:41

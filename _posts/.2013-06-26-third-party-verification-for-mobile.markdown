@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Third party verification for Mobile App with Web
 tags: [third-party, verification, mobile, app]
 date: 2013-06-26 20:41

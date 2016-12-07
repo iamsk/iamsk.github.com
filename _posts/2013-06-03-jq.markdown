@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: jq - command-line JSON processor
 tags: [jq, json, command]
 date: 2013-06-03 16:50

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Brat - A [framework|practice] of RESTful API based on Tornado
 tags: [API, RESTFul, Brat]
 date: 2013-05-13 08:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: TMiddleware - middleware for tornado
 tags: [tornado, middleware, python]
 date: 2013-05-23 23:00

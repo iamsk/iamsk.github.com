@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Softwares for OSX
 tags: [osx, software]
 date: 2013-07-04 16:50

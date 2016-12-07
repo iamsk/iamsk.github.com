@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Error when install hubot
 tags: [hubot, error]
 date: 2012-05-07 22:47

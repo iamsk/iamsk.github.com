@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Leds Love
 tags: [arduino, led, love]
 date: 2013-05-13 00:30

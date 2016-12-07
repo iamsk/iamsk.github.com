@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: about-api-docs-and-console
 tags: [api, doc, console]
 date: 2013-07-19 23:50

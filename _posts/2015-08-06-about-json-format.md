@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  About json format
 tags: [json, format]
 date: 2015-08-06 18:25

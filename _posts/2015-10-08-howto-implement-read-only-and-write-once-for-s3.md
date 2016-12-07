@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  How to implement read only and write once for s3
 tags: s3
 date: 2015-10-08 14:41

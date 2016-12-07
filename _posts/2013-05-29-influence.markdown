@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Influence by others
 tags: [life]
 date: 2013-05-29 10:50

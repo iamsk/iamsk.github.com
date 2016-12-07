@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Autoreload in tornado, gunicorn, supervisor, etc
 tags: [tornado, autoreload, gunicorn, supervisor]
 date: 2013-05-27 22:10

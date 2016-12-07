@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Blog based on GitHub
 tags: [blog, github, jekyll]
 date: 2012-04-30 22:47

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: About monitoring
 tags: [monitoring]
 date: 2013-07-26 09:50

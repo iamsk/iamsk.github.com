@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Reborn
 tags: [life]
 date: 2013-04-24 22:47

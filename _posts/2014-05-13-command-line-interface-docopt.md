@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Docopt - Command-line interface description language
 tags: [command, argparse, optparse, getopt, click]
 date: 2014-05-13 14:02

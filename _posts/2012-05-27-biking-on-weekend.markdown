@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Biking on weekend
 tags: [bike, travel]
 date: 2012-05-27 22:47

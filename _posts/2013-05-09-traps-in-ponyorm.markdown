@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Traps in PonyORM
 tags: [ponyorm, orm, python, bug]
 date: 2013-05-09 13:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: uncompyle -- A Python 2.7 byte-code decompiler
 tags: [uncompyle, python, decompile]
 date: 2013-07-24 22:20

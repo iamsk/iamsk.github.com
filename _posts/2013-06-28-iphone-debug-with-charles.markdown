@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: iphone-debug-with-charles
 tags: [iphone, http, charles, debug, https]
 date: 2013-06-28 11:50

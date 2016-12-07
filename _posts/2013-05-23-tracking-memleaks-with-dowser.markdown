@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Tracking memory leaks with dowser
 tags: [memory, leak, dowser, python, tornado, django]
 date: 2013-05-23 21:40

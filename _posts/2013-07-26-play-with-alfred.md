@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Play with Alfred
 tags: [alfred]
 date: 2013-07-26 21:20

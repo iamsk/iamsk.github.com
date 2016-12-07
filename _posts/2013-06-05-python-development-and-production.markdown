@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Python development and production
 tags: [python, development, production, vitrualenv, pythonbrew]
 date: 2013-06-05 12:55

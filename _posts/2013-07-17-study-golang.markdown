@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: study-golang
 tags: [golang]
 date: 2013-07-17 10:50
