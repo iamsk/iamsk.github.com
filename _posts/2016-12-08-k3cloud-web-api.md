@@ -9,7 +9,7 @@ K3cloud is a Kingdee ERP system on cloud which have web api support
 # Warning
 There are a lot of choices for us [Top 4 open source ERP systems][1] and Kingdee should be the last choose for you.
 
-# Why we choose Kingdee, it’s a history
+# Why we choose Kingdee, it’s a history story
 * Kingdee is the top-one ERP system in China;
 * Our financial team already use Kingdee system, they are all Chinese;
 * We need integrate financial workflow to our website to make our whole system more automatically; 
