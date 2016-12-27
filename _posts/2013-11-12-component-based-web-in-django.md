@@ -53,3 +53,8 @@ Product design -\> (FrontEnd and BackEnd programing at the same time) -\> integr
 - http for context
 
 This will make views and templates into pieces and looks not that huge.
+
+# An implementation for this idea
+[https://github.com/iamsk/django-webnodes][1]
+
+[1]:	https://github.com/iamsk/django-webnodes
