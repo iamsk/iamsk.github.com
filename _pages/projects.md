@@ -25,13 +25,16 @@ support readitlaterlist.com to readability.com
 
 Github:  [iamsk/readlater][3]
 
+## startupbox
+
+It’s a small toy for finding out if your company’s name is available on the web or not! [http://startupbox.iamsk.info][4]
+
 ## Other Projects
 
-Check out my [GitHub][4], [BitBucket][5] or [Google Code][6].
+Check out my [GitHub][5].
 
 [1]:	https://github.com/iamsk/tmiddleware
 [2]:	https://github.com/iamsk/brat
 [3]:	https://github.com/iamsk/readlater
-[4]:	https://github.com/iamsk
-[5]:	https://bitbucket.org/iamsk
-[6]:	https://code.google.com/u/110438853299428005227
+[4]:	http://startupbox.iamsk.info/ "http://startupbox.iamsk.info"
+[5]:	https://github.com/iamsk
