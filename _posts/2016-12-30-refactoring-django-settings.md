@@ -51,6 +51,15 @@ except ImportError:
 ### 方案二（新方式，使用中）
 
 django-configurations: [https://django-configurations.readthedocs.io/en/stable/][1]
-利用类的可组合性及面向对象的模式
+
+1. Server specific settings: 解决环境差异；
+2. Global settings defaults: 解决公用配置问题；
+3. Configuration mixins: 解决第三方配置的复用。
+
+#### 优点：
+* 借助类的面向对象，可以实现各种粒度的组合与重用。
+
+#### 缺点：
+* 与 Django 原生 settings 不同，此配置基于类的形式。
 
 [1]:	https://django-configurations.readthedocs.io/en/stable/
