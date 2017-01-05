@@ -3,7 +3,7 @@ layout: single
 title: 重构 django settings
 tags: [django, refactoring, settings, django-configurations, 重构, 配置]
 ---
-使用 Django 做开发的团队，总会面临 settings.py 配置文件臃肿的问题，并且随着第三方引用涉及的配置增多及多项目存在冗余配置时，这个问题更加突出了
+使用 Django 的团队，总会面临 settings.py 配置文件臃肿的问题，并且随着第三方引用涉及的配置增多及多项目存在冗余配置时，这个问题更加突出了
 
 ### 我们现有的场景
 
