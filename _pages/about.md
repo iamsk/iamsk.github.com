@@ -21,7 +21,7 @@ You can take a look at my [projects][3] to see some of the more interesting thin
 
 Please feel free to get in touch with me, you can [Email][5] me or find me on [GitHub][6], [LinkedIn][7], [Zhihu][8] or even [Twitter][9].
 
-I also have an [cv(english)][10] which tell you what I have done before.
+I also have an [resume][10] which tell you what I have done before.
 
 ## Favourite
 
@@ -40,5 +40,5 @@ If you want to know more, check out the [post][11] about the building.
 [7]:	https://www.linkedin.com/in/iamsk7
 [8]:	http://zhi.hu/sk
 [9]:	https://twitter.com/iamsk7
-[10]:	/files/cv-en.pdf
+[10]:	/files/fullstack-developer-binzhang.pdf
 [11]:	/2012/04/30/blog-based-on-github/
