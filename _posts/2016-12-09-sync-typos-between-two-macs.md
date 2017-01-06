@@ -31,6 +31,8 @@ rm -rf Spelling
 ln -s ~/Dropbox/Spelling
 ```
 
+Restart spell check by running `killall AppleSpell`, it’s better add this in your cronjob as the synced words need update the Apple cache.
+
 ## refs
 * [How to improve the Mac OS X Dictionary][3]
 * [MacSpelling shell][4]
