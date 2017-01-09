@@ -13,7 +13,7 @@
 - Front-End: Bootstrap/html/css/javascript/jQuery/AngularJS
 - Databases: MySQL/pgSQL/MongoDB/Redis
 - Tools: Git/Supervisor/Nginx/Buildout/Vagrant/Tmux
-- Best Practices: TDD/Code Review/API Design/Cache Design/RPC Service Design
+- Best Practices: Agile/TDD/Code Review/API Design/Cache Design/RPC Service Design
 
 ## Work Experience
 

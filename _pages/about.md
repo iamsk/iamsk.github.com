@@ -40,5 +40,5 @@ If you want to know more, check out the [post][11] about the building.
 [7]:	https://www.linkedin.com/in/iamsk7
 [8]:	http://zhi.hu/sk
 [9]:	https://twitter.com/iamsk7
-[10]:	/files/fullstack-developer-binzhang.pdf
+[10]:	/files/developer-binzhang.pdf
 [11]:	/2012/04/30/blog-based-on-github/
