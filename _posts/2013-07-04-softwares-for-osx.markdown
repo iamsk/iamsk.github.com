@@ -5,83 +5,75 @@ tags: [osx, software]
 date: 2013-07-04 16:50
 ---
 
-Introduce to you some softwares used in my life :)
+Introduce to you some softwares used in my life :) updated: 2017-02-08
 
 ## Base
-1. StartNinjaInstaller for no voice when start mac os;
-* Mou for markdown;
-* TextExpander for extend system input;
-* Sparrow for gmail;
-* GoAgentMac for goagent proxy;
-* Virtualbox for other os system;
-* Chrome for internet;
-* Firefox for internet;
-* KeyRemap4MacBook;
-* Evernote for notes;
-* Ehon for books;
-* Kaleidoscope for file compare;
-* Dropbox for storage;
-* Dropcopy for files sharing;
-* Keka for zip, etc;
-* FileZilla for ftp;
-* AppCleaner for uninstall software;
-* xscope
-* Adobe with photoshop;
-* Go2Shell: directory to iterm;
-* Thunder
-* uTorrent
-* Wallpapers HD Lite
-* Bamboo for pen-tablets;
-* Camtasia 2 for recording on-screen activity;
-* MacTubes
-* Paintbrush
-* Skype
-* CheatSheet
+
+1. Google Chrome;
+1. GoAgentMac: proxy management;
+1. Lantern: temp use for proxy; 
+1. Ulysses/Mou: markdown editor;
+1. Dropbox: cloud storage;
+1. Keka: unzip, etc;
+1. KeyRemap4MacBook;
+1. StartNinjaInstaller: disable sound when start up mac os;
+1. TextExpander: extend system input;
+1. Virtualbox: install other os system, like ubuntu(dev env) and windows;
+1. AppCleaner: uninstall software;
+1. Clean My Mac 3: remove unused files;
+1. Camtasia 2: recording on-screen activity;
+1. Setapp: bundle apps with monthly payment;
+
+## Communication
+
+1. Slack: team cooperation chat;
+1. Wechat: friends chat;
+1. AliWangwang: shopping chat;
 
 ## Developing
-1. Xcode for base programing system;
-* iTerm2 for extend terminal;
-* RStudio for write R language;
-* MacVim for extend vim;
-* Mindnode for mark sth;
-* SequelPro for sql client;
-* htop for process, need sudo;
-* wget for download;
-* tmux for mutil screen;
-* oh-my-zsh: amazing shell;
-* git for teamwork coding;
-* ipython/bpython: wonderful python;
-* Arduino for playing hardwares;
-* Charles
-* LEGO Digital Designer
-* Sublime Text 3
 
-## Entertainment
-1. QQ for chat;
-* Adium for gtalk;
-* Reeder for rss read;
-* MplayerX for play video;
-* SPlayerX for play video;
-* PPS for videos;
-* LessLyrics for itunes lyrics;
-* iResize for resize picture;
-* WallPapers for desktop picture;
-* forismatic for famous notes;
-
-## Game
-1. Rail Maze is game;
-* RC Mini Racers
+1. Xcode: base programing system;
+1. iTerm: extend terminal;
+1. MacVim: extend vim;
+1. Mindnode: organize things;
+1. Sequel Pro: mysql client;
+1. Charles: Network Monitoring for phone;
+1. Pycharm: amazing IDE for Python web developing;
+1. Kaleidoscope: file compare;
+1. htop(\*): process, need sudo;
+1. wget(\*): download;
+1. tmux(\*): manage multiple screens;
+1. oh-my-zsh(\*): amazing shell;
+1. git(\*): teamwork coding;
+1. ipython(\*): wonderful python;
 
 ## Productivity
-1. Keynote for ppt;
-* Numbers for spreadsheet;
-* Pages for doc;
-* cheatsheet(for mac commands);
-* Wunderlist for todo list;
-* RescueTime for work time;
-* byobu, base on screen or tmux;
-* http://graffletopia.com/, templates for graffle-pro;
-* Alfred, used for search
-* Powerpack based on Alfred, used for extend
-* GeekTool for desktop hack;
-* OmniGraffle-Pro for work flow doc;
+
+1. Keynote: create slides;
+1. CheatSheet: query mac commands shortcuts;
+1. QQ: capture screen and edit;
+1. RescueTime: log and analyze working time;
+1. OmniGraffle-Pro: making work flow graph;
+1. http://graffletopia.com/: templates for graffle-pro;
+1. Alfred: used for start up apps;
+1. Powerpack: based on Alfred, used for extend workflow;
+1. MacID/Near Lock: auto lock and unlock screen;
+1. Spectacle: windows manger;
+1. 1Password: password management;
+1. Cactus: serve static files;
+1. Postman: API console;
+1. Go2Shell: directory to iTerm;
+1. TeamViewer: remote control;
+1. Microsoft Remote Desktop: login remote windows in Mac;
+
+## Entertainment
+
+1. MplayerX/SPlayerX: play video;
+1. MacTubes: store youtube videos locally;
+1. iResize: resize picture;
+1. Forismatic: famous notes;
+1. Marmoset: code highlight;
+
+## Game
+
+1. Rail Maze is game;
