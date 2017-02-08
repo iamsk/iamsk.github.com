@@ -3,7 +3,7 @@ layout: single
 title: what is pre commit looks like and how to implement it 
 tags: [git, pre-commit, refactoring, git, hook]
 ---
-The`pre-commit` can find and fix common issues before changes are submitted for code review;
+The `pre-commit` can find and fix common issues before changes are submitted for code review;
 
 Code reviewers should pay attention to the architecture of a change and not worry about trivial errors like `syntax error`, `not following code style`, `test missing`.
 
