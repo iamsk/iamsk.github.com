@@ -56,6 +56,8 @@ TODO: integrate with https://github.com/thoughtbot/laptop
 1. httpstat: network monitoring for curl;
 1. diff-so-fancy: good-lookin' diffs;
 1. m-cli: Swiss Army Knife for macOS;
+1. Dash(https://kapeli.com/dash): API documentation browser;
+1. Snap(https://itunes.apple.com/cn/app/id418073146): launch app;
 
 ## Productivity
 
@@ -75,6 +77,7 @@ TODO: integrate with https://github.com/thoughtbot/laptop
 1. Go2Shell: directory to iTerm;
 1. TeamViewer: remote control;
 1. Microsoft Remote Desktop: login remote windows in Mac;
+1. Sougou Pinyin: input method;
 
 ## Entertainment
 
