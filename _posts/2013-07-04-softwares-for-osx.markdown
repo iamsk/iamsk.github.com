@@ -7,8 +7,12 @@ date: 2013-07-04 16:50
 
 Introduce to you some softwares used in my life :) updated: 2017-02-08
 
+TODO: integrate with https://github.com/thoughtbot/laptop
+
 ## Base
 
+1. Homebrew: install CLI apps;
+1. Homebrew Cask: install GUI apps;
 1. Google Chrome;
 1. GoAgentMac: proxy management;
 1. Lantern: temp use for proxy; 
@@ -22,6 +26,7 @@ Introduce to you some softwares used in my life :) updated: 2017-02-08
 1. AppCleaner: uninstall software;
 1. Clean My Mac 3: remove unused files;
 1. Camtasia 2: recording on-screen activity;
+1. iStat Menus: cpu, mem, network monitoring;
 1. Setapp: bundle apps with monthly payment;
 
 ## Communication
@@ -33,7 +38,7 @@ Introduce to you some softwares used in my life :) updated: 2017-02-08
 ## Developing
 
 1. Xcode: base programing system;
-1. iTerm: extend terminal;
+1. iTerm2: extend terminal;
 1. MacVim: extend vim;
 1. Mindnode: organize things;
 1. Sequel Pro: mysql client;
@@ -45,7 +50,12 @@ Introduce to you some softwares used in my life :) updated: 2017-02-08
 1. tmux(\*): manage multiple screens;
 1. oh-my-zsh(\*): amazing shell;
 1. git(\*): teamwork coding;
+1. pyenv(*): manage python verions;
 1. ipython(\*): wonderful python;
+1. ag/ack: simple and fast search;
+1. httpstat: network monitoring for curl;
+1. diff-so-fancy: good-lookin' diffs;
+1. m-cli: Swiss Army Knife for macOS;
 
 ## Productivity
 
@@ -55,7 +65,7 @@ Introduce to you some softwares used in my life :) updated: 2017-02-08
 1. RescueTime: log and analyze working time;
 1. OmniGraffle-Pro: making work flow graph;
 1. http://graffletopia.com/: templates for graffle-pro;
-1. Alfred: used for start up apps;
+1. Alfred 3: used for start up apps;
 1. Powerpack: based on Alfred, used for extend workflow;
 1. MacID/Near Lock: auto lock and unlock screen;
 1. Spectacle: windows manger;
