@@ -7,7 +7,7 @@ date: 2013-07-04 16:50
 
 Introduce to you some softwares used in my life :) updated: 2017-02-08
 
-TODO: integrate with https://github.com/thoughtbot/laptop
+TODO: integrate with https://github.com/iamsk/laptop
 
 ## Base
 
@@ -16,11 +16,8 @@ TODO: integrate with https://github.com/thoughtbot/laptop
 1. Google Chrome;
 1. GoAgentMac: proxy management;
 1. Lantern: temp use for proxy; 
-1. Ulysses/Mou: markdown editor;
+1. Ulysses: markdown editor;
 1. Dropbox: cloud storage;
-1. Keka: unzip, etc;
-1. KeyRemap4MacBook;
-1. StartNinjaInstaller: disable sound when start up mac os;
 1. TextExpander: extend system input;
 1. Virtualbox: install other os system, like ubuntu(dev env) and windows;
 1. AppCleaner: uninstall software;
@@ -50,11 +47,11 @@ TODO: integrate with https://github.com/thoughtbot/laptop
 1. tmux(\*): manage multiple screens;
 1. oh-my-zsh(\*): amazing shell;
 1. git(\*): teamwork coding;
-1. pyenv(*): manage python verions;
+1. pyenv(\*): manage python versions;
 1. ipython(\*): wonderful python;
 1. ag/ack: simple and fast search;
 1. httpstat: network monitoring for curl;
-1. diff-so-fancy: good-lookin' diffs;
+1. diff-so-fancy: good-looking’ diffs;
 1. m-cli: Swiss Army Knife for macOS;
 1. Dash(https://kapeli.com/dash): API documentation browser;
 1. Snap(https://itunes.apple.com/cn/app/id418073146): launch app;
@@ -65,8 +62,6 @@ TODO: integrate with https://github.com/thoughtbot/laptop
 1. CheatSheet: query mac commands shortcuts;
 1. QQ: capture screen and edit;
 1. RescueTime: log and analyze working time;
-1. OmniGraffle-Pro: making work flow graph;
-1. http://graffletopia.com/: templates for graffle-pro;
 1. Alfred 3: used for start up apps;
 1. Powerpack: based on Alfred, used for extend workflow;
 1. MacID/Near Lock: auto lock and unlock screen;
@@ -86,7 +81,3 @@ TODO: integrate with https://github.com/thoughtbot/laptop
 1. iResize: resize picture;
 1. Forismatic: famous notes;
 1. Marmoset: code highlight;
-
-## Game
-
-1. Rail Maze is game;
