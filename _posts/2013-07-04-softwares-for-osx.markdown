@@ -5,7 +5,7 @@ tags: [osx, software]
 date: 2013-07-04 16:50
 ---
 
-Some softwares used in my Mac :) updated: 2017-05-16
+Some softwares used in my Mac :) updated: 2017-05-18
 
 Integrated with https://github.com/iamsk/laptop
 
@@ -14,37 +14,41 @@ Integrated with https://github.com/iamsk/laptop
 ## Base
 
 1. Homebrew(https://github.com/iamsk/laptop): install CLI apps;
-1. Homebrew Cask(B): install GUI apps;
+1. Homebrew Cask(laptop): install GUI apps;
+1. Java(C): java runtime;
+1. GoAgent([http://t.cn/R5ZobpC][1]): proxy management;
+1. HostsTools(https://github.com/HostsTools/OSX): GFW Hosts
 1. Google Chrome(C);
 1. Ulysses(MAS): markdown editor;
-1. AppCleaner(C): uninstall software;
+1. AppCleaner(C): uninstall softwares;
 1. Movist(C)/MplayerX(C): play video;
+1. Netease Music(C): play online music;
 1. iStat Menus(C): cpu, mem, network monitoring;
-1. GoAgent([http://t.cn/R5ZobpC][1]): proxy management;
 1. Dropbox(C): cloud storage;
 
 ## Communication
 
-1. Slack(C): team cooperation chat;
 1. Wechat(MAS): chat with friends, can be replaced with `electronic-wechat`(C);
-1. Ali Wangwang(C): shopping chat;
+1. Slack(C): team cooperation chat;
+1. AliWangwang(C): shopping chat;
 
 ## Developing
 
-1. Xcode(B): base programing system;
+1. Xcode(laptop): base programing system;
+1. git(laptop): teamwork coding;
+1. tmux(laptop): manage multiple screens;
+1. zsh(laptop): amazing shell;
+1. oh-my-zsh(https://github.com/robbyrussell/oh-my-zsh): amazing shell extension;
 1. iTerm2(C): extend terminal;
+1. ag(laptop)/ack(B): simple and fast search;
+1. htop(B): process monitor, need sudo;
+1. wget(B): download;
+1. pyenv(B): manage python versions;
+1. ipython(B): wonderful python;
 1. Pycharm(C): amazing IDE for Python web developing;
 1. MacVim(C): extend vim;
 1. Sequel Pro(C): mysql client;
 1. Charles(C): Network Monitoring for phone;
-1. oh-my-zsh(B): amazing shell;
-1. ag(B)/ack(B): simple and fast search;
-1. git(B): teamwork coding;
-1. htop(B): process monitor, need sudo;
-1. wget(B): download;
-1. tmux(B): manage multiple screens;
-1. pyenv(B): manage python versions;
-1. ipython(B): wonderful python;
 1. httpstat(B): network monitoring for curl;
 1. diff-so-fancy(B): good-looking’ diffs;
 1. m-cli(B): Swiss Army Knife for macOS;
@@ -56,7 +60,7 @@ Integrated with https://github.com/iamsk/laptop
 
 ## Productivity
 
-1. 1Password(MAS): password management;
+1. 1Password(C): password management;
 1. Sogou Input Method(C): input method;
 1. Alfred(C): used for start up apps;
 1. Powerpack(Alfred): based on Alfred, used for extend workflow;
@@ -64,7 +68,7 @@ Integrated with https://github.com/iamsk/laptop
 1. RescueTime(C): log and analyze working time;
 1. Go2Shell(C): directory to iTerm;
 1. QQ(C): capture screen and edit;
-1. CheatSheet: query mac commands shortcuts;
+1. CheatSheet(C): query mac commands shortcuts;
 1. MacID(C)/Near Lock: auto lock and unlock screen, replaced by `Touch ID`;
 1. Cactus(C): serve static files;
 1. Postman(Chrome): API console;
