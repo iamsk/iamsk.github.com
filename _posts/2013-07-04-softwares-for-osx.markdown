@@ -2,14 +2,14 @@
 layout: single
 title: Softwares for OSX
 tags: [osx, software]
-date: 2013-07-04 16:50
+date: 2017-05-18 07:50
 ---
 
 Some softwares used in my Mac :) updated: 2017-05-18
 
 Integrated with https://github.com/iamsk/laptop
 
-`B` stands for home brew, `C` stands for home brew cask, each app sort with the priority.
+`B` stands for home brew, `C` stands for home brew cask, each app sorted with the priority.
 
 ## Base
 
