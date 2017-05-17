@@ -9,7 +9,7 @@ Some softwares used in my Mac :) updated: 2017-05-16
 
 Integrated with https://github.com/iamsk/laptop
 
-`B` stands for home brew, `C` stands for home brew cask.
+`B` stands for home brew, `C` stands for home brew cask, each app sort with the priority.
 
 ## Base
 
@@ -31,28 +31,28 @@ Integrated with https://github.com/iamsk/laptop
 
 ## Developing
 
-1. Xcode: base programing system;
+1. Xcode(B): base programing system;
 1. iTerm2(C): extend terminal;
 1. Pycharm(C): amazing IDE for Python web developing;
 1. MacVim(C): extend vim;
 1. Sequel Pro(C): mysql client;
 1. Charles(C): Network Monitoring for phone;
-1. Kaleidoscope(C): file compare, optional;
-1. htop(B): process, need sudo;
+1. oh-my-zsh(B): amazing shell;
+1. ag(B)/ack(B): simple and fast search;
+1. git(B): teamwork coding;
+1. htop(B): process monitor, need sudo;
 1. wget(B): download;
 1. tmux(B): manage multiple screens;
-1. oh-my-zsh(B): amazing shell;
-1. git(B): teamwork coding;
 1. pyenv(B): manage python versions;
 1. ipython(B): wonderful python;
-1. ag(B)/ack(B): simple and fast search;
 1. httpstat(B): network monitoring for curl;
 1. diff-so-fancy(B): good-looking’ diffs;
 1. m-cli(B): Swiss Army Knife for macOS;
 1. Dash(C): API documentation browser;
 1. Marmoset(Chrome): code highlight;
 1. Virtualbox(C): install other os system, like ubuntu(dev env) and windows;
-1. Mindnode Pro(C): organize things, optional;
+1. Mindnode Pro(C): organize things;
+1. Kaleidoscope(C): file compare;
 
 ## Productivity
 
