@@ -23,8 +23,12 @@ Integrated with https://github.com/iamsk/laptop
 1. AppCleaner(C): uninstall softwares;
 1. Movist(C)/MplayerX(C): play video;
 1. Netease Music(C): play online music;
-1. iStat Menus(C): cpu, mem, network monitoring;
+1. iStat Menus(C/L): cpu, mem, network monitoring;
 1. Dropbox(C): cloud storage;
+1. Fliqlo(C): screen protection;
+1. SwitchHosts(C): https://github.com/oldj/SwitchHosts;
+1. Disk Cleaner Suite(MAS): the small set of clean my mac;
+1. TinkerTool(http://www.bresink.com/osx/TinkerTool.html): edit apple hidden settings, configure in cask before;
 
 ## Communication
 
@@ -45,24 +49,26 @@ Integrated with https://github.com/iamsk/laptop
 1. wget(B): download;
 1. pyenv(B): manage python versions;
 1. ipython(B): wonderful python;
-1. Pycharm(C): amazing IDE for Python web developing;
+1. Pycharm(C/L): amazing IDE for Python web developing;
 1. MacVim(C): extend vim;
 1. Sequel Pro(C): mysql client;
-1. Charles(C): Network Monitoring for phone;
+1. Charles(C/L): Network Monitoring for phone;
 1. httpstat(B): network monitoring for curl;
 1. diff-so-fancy(B): good-looking’ diffs;
 1. m-cli(B): Swiss Army Knife for macOS;
-1. Dash(C): API documentation browser;
+1. Dash(C/L): API documentation browser;
 1. Marmoset(Chrome): code highlight;
 1. Virtualbox(C): install other os system, like ubuntu(dev env) and windows;
-1. Mindnode Pro(C): organize things;
+1. Mindnode Pro(C:mindnode-pro): organize things;
 1. Kaleidoscope(C): file compare;
+1. Robomongo(C): mongodb GUI client;
+1. SQLiteManager(C):
 
 ## Productivity
 
-1. 1Password(C): password management;
+1. 1Password(C/MAS): password management;
 1. Sogou Input Method(C): input method;
-1. Alfred(C): used for start up apps;
+1. Alfred(C/L): used for start up apps;
 1. Powerpack(Alfred): based on Alfred, used for extend workflow;
 1. Spectacle(C): windows manger;
 1. RescueTime(C): log and analyze working time;
@@ -80,5 +86,7 @@ Integrated with https://github.com/iamsk/laptop
 1. Clean My Mac(C): remove unused files;
 1. Camtasia(C): recording on-screen activity;
 1. Lantern(C): temp use for proxy;
+1. ABBYY FineReader(MAS): ocr tool;
+1. SiteSucker(C): download websites.
 
 [1]:	http://t.cn/R5ZobpC
