@@ -91,9 +91,16 @@ Integrated with https://github.com/iamsk/laptop
 
 ## Custom settings
 
-1. dotfiles: [https://github.com/thoughtbot/dotfiles][2]
-1. oh-my-zsh: [https://github.com/robbyrussell/oh-my-zsh][3]
+1. dotfiles: [https://github.com/thoughtbot/dotfiles][2];
+1. oh-my-zsh: [https://github.com/robbyrussell/oh-my-zsh][3];
+1. Update \~/\~.gitignore for global;
+1. Sync typos: [http://iamsk.info/sync-typos-between-two-macs/][4];
+1. Pycharm theme: [https://github.com/jkaving/intellij-colors-solarized][5];
+1. dot-vimrc: [https://github.com/humiaozuzu/dot-vimrc][6].
 
 [1]:	http://t.cn/R5ZobpC
 [2]:	https://github.com/thoughtbot/dotfiles
 [3]:	https://github.com/robbyrussell/oh-my-zsh
+[4]:	http://iamsk.info/sync-typos-between-two-macs/
+[5]:	https://github.com/jkaving/intellij-colors-solarized
+[6]:	https://github.com/humiaozuzu/dot-vimrc
