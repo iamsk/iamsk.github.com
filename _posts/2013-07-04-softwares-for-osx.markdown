@@ -89,4 +89,11 @@ Integrated with https://github.com/iamsk/laptop
 1. ABBYY FineReader(MAS): ocr tool;
 1. SiteSucker(C): download websites.
 
+## Custom settings
+
+1. dotfiles: [https://github.com/thoughtbot/dotfiles][2]
+1. oh-my-zsh: [https://github.com/robbyrussell/oh-my-zsh][3]
+
 [1]:	http://t.cn/R5ZobpC
+[2]:	https://github.com/thoughtbot/dotfiles
+[3]:	https://github.com/robbyrussell/oh-my-zsh
