@@ -62,7 +62,8 @@ Integrated with https://github.com/iamsk/laptop
 1. Mindnode Pro(C:mindnode-pro): organize things;
 1. Kaleidoscope(C): file compare;
 1. Robomongo(C): mongodb GUI client;
-1. SQLiteManager(C):
+1. SQLiteManager(C): sqlite GUI client;
+1. adr-tools(B): Command-line tools for working with Architecture Decision Records.
 
 ## Productivity
 
