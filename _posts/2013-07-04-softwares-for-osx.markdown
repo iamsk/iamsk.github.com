@@ -29,6 +29,8 @@ Integrated with https://github.com/iamsk/laptop
 1. SwitchHosts(C): https://github.com/oldj/SwitchHosts;
 1. Disk Cleaner Suite(MAS): the small set of clean my mac;
 1. TinkerTool(http://www.bresink.com/osx/TinkerTool.html): edit apple hidden settings, configure in cask before;
+1. youtube-dl(B): videos;
+1. you-get(B): videos;
 
 ## Communication
 
@@ -63,7 +65,12 @@ Integrated with https://github.com/iamsk/laptop
 1. Kaleidoscope(C): file compare;
 1. Robomongo(C): mongodb GUI client;
 1. SQLiteManager(C): sqlite GUI client;
-1. adr-tools(B): Command-line tools for working with Architecture Decision Records.
+1. adr-tools(B): Command-line tools for working with Architecture Decision Records;
+1. tig(B): interactive git;
+1. axel(B): replace of curl and wget;
+1. fzf(B): replace of find;
+1. Sz/rz(B): replace of scp;
+1. cloc(B): code stats by type;
 
 ## Productivity
 
