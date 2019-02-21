@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+https://liep.in/* https://iamsk.info/:splat 301!
+https://juhuishijian.com/* https://iamsk.info/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://iamskinfo.netlify.com/* https://iamsk.info/:splat 301!
