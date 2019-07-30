@@ -7,9 +7,9 @@ permalink: /about/
 
 My name is **Bin Zhang** and written as "**张斌**" in Chinese.
 
-I got CS bachelor degree from [Xi'an Institute of Post and Telecommunications][1] in July 2010.
+I got CS bachelor degree from [Xi'an Institute of Post and Telecommunications][1] in 2010.
 
-Currently, I am living in Beijing, the capital city of China. And I am working here for [TAGG][2], It is a __Social Netework__ app for fashion people to share their lifestyles.
+Currently, I am living in Beijing, the capital city of China. And I am working here for [Huifenqi][2] as an architect.
 
 ## Developing
 
@@ -21,9 +21,7 @@ You can take a look at my [projects][3] to see some of the more interesting thin
 
 Please feel free to get in touch with me, you can [Email][5] me or find me on [GitHub][6], [LinkedIn][7], [Zhihu][8] or even [Twitter][9].
 
-I also have an [resume][10] which tell you what I have done before.
-
-## Favourite
+## Favourites
 
 Interested in Photograph, RaspberryPI, Arduino, Lego Mindstorms NXT and 3D-Printing.
 
@@ -32,7 +30,7 @@ Interested in Photograph, RaspberryPI, Arduino, Lego Mindstorms NXT and 3D-Print
 If you want to know more, check out the [post][11] about the building.
 
 [1]:	http://www.xiyou.edu.cn/
-[2]:	http://www.tagglife.com/
+[2]:	https://www.huifenqi.com/
 [3]:	/projects.html
 [4]:	https://github.com/iamsk/
 [5]:	mailto:iamsk.info#gmail.com
@@ -40,5 +38,4 @@ If you want to know more, check out the [post][11] about the building.
 [7]:	https://www.linkedin.com/in/iamsk7
 [8]:	http://zhi.hu/sk
 [9]:	https://twitter.com/iamsk7
-[10]:	/files/developer-binzhang.pdf
-[11]:	/2012/04/30/blog-based-on-github/
+[11]:	/blog-based-on-github/
