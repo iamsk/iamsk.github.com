@@ -37,7 +37,8 @@ Idea comes from [tryruby.org][1], it’s an online ruby tutorial.
 * tryruby [http://tryruby.org][16]
 * jsfiddle [https://jsfiddle.net/][17]
 * jsbin [http://jsbin.com][18]
-* JQuery [http://try.jquery.com/][19]
+* JQuery [https://www.tutorialspoint.com/online_jquery_editor.php][19]
+* PHP [https://extendsclass.com/php.html][21]
 
 ## Refs:
 * Online IDE for Python [http://stackoverflow.com/questions/2036987/online-ide-for-python][20]
@@ -60,5 +61,6 @@ Idea comes from [tryruby.org][1], it’s an online ruby tutorial.
 [16]:	http://tryruby.org
 [17]:	https://jsfiddle.net/
 [18]:	http://jsbin.com/ "http://jsbin.com"
-[19]:	http://try.jquery.com/
+[19]:	https://www.tutorialspoint.com/online_jquery_editor.php
 [20]:	http://stackoverflow.com/questions/2036987/online-ide-for-python
+[21]:	https://extendsclass.com/php.html
